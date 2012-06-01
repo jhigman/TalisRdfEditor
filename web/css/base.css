@@ -1,0 +1,159 @@
+
+body {
+    #text-align: left;
+    background:#FFF;
+    color:#262C32;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-size: 75%;
+    line-height: 1.75em;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    margin-bottom: 0.5em;
+    color: #111;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 1.833333em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom:none;
+}
+
+h2 {
+    font-size: 1.4em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+h2,h3,h4,h5,h6 {
+    margin-top: 1em;
+}
+
+form li {
+    margin-bottom: 1em;
+}
+
+input[disabled], input[readonly], button[disabled] {
+    border: none;
+}
+
+button {
+    font-family:inherit;
+    font-size: 90%;
+    font-weight:inherit;
+    line-height: 110%;
+}
+
+em,i
+{
+    font-style: italic;
+}
+
+strong,bold {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    font-size: 90%;
+    line-height: 1em !important;
+    margin-bottom: 2px;
+    
+}
+
+label.inline {
+    display: inline !important;
+}
+
+legend {
+    color: black;
+}
+
+ul,ol
+{
+    line-height: 1.75em;
+}
+
+ul.inline ul li {
+    display: inline !important;
+    margin-right: 1em;
+}
+
+table {
+    width: 100%;
+    font-size: 90%;
+}
+
+table.tablesorter thead tr th {
+    white-space: nowrap;
+}
+
+th {
+    color: black;
+}
+
+tr {
+    vertical-align: top;
+}
+
+th {
+    background-color: #CCCCCC;
+    font-weight: bold;
+    padding: 0.3em;
+}
+
+td {
+    padding: 0.3em;
+}
+
+li li {
+    margin-bottom: 1 !important;
+}
+
+button + button, input[type="submit"] + input[type="submit"] {
+    margin-left:1em;
+}
+
+.findResults ul {
+	list-style-image:url("../images/16/021.png");
+}
+
+
+.lnkDeleteTriple a {
+	padding: 0 2px 1px 15px;
+	background: #fff url(../images/16/101.png) left center no-repeat;
+	color: #c00;
+}
+
+.lnkEditTriple a {
+	padding: 0 2px 1px 15px;
+	background: #fff url(../images/16/022.png) left center no-repeat;
+	color: #c00;
+}
+
+.ui-datepicker-trigger{
+	vertical-align: middle;
+}
+
+.ui-datepicker{
+	margin: 5em;
+}
+
